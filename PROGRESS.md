@@ -140,5 +140,8 @@ With the help of this application, you can easily see how the other talent in yo
 
 # 3. Documenting
 ⏲️ 23:33
+Please check the [README here.](https://github.com/kubilaycaglayan/torre-assessment/blob/documentation/README.md)
 
 # 4. Video Presentation
+⏲️ 00:11
+Please check the [VIDEO PRESENTATION here.](https://github.com/kubilaycaglayan/torre-assessment/pull/1)

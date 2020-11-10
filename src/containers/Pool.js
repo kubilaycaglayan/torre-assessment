@@ -9,14 +9,14 @@ const Pool = props => {
   return (
     <section className="pool">
       { candidatePool
-        .map(candidate => <Candidate candidate={candidate} key={candidate.person.subjectId} />) }
+        .map(candidate => <Candidate candidate={candidate} key={candidate.person.subjectId} className="pool-candidate" />) }
     </section>
   );
 };
 
 Pool.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
-  candidatePool: PropTypes.object.isRequired,
+  candidatePool: PropTypes.array.isRequired,
 };
 
 const mapStateToProps = state => ({

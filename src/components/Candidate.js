@@ -57,7 +57,8 @@ Candidate.propTypes = {
     }).isRequired,
   }).isRequired,
   className: PropTypes.string.isRequired,
-  loadingState: PropTypes.string.isRequired,
+  // eslint-disable-next-line react/require-default-props
+  loadingState: PropTypes.string,
 };
 
 export default Candidate;
