@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import getRank from '../helpers/ranking/getRank';
 import Candidate from '../components/Candidate';
 import Job from '../components/Job';
+import Loading from '../components/Loading';
 import Pool from './Pool';
 import AddCandidateInput from './AddCandidateInput';
 import { changeCandidateRank, changePoolRank } from '../actions';
@@ -21,6 +22,14 @@ const App = props => {
       <header>
         Hello Torre!
       </header>
+      <section>
+        <p>
+          This is a great product...
+          This is a great product...
+          This is a great product...
+        </p>
+      </section>
+      <Loading />
       <section className="query">
         <h3>
           Find The Best Job For Your Talent
