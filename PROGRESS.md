@@ -1,9 +1,10 @@
 
 # 1. Planning
-⏲️ 08:00
-- (UTC +3) Receive the Technical Test.
+⏲️ 08:00 (UTC +3)
+- Receive the Technical Test Mail.
   - Experiment with API endpoints to understand how to use them.
   - Choose React SPA to create the project.
+
 ⏲️ 09:00
 - Come up with an idea.
 
