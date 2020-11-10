@@ -12,6 +12,7 @@ const initialState = {
     { ...user4, rank: 0 },
     { ...user5, rank: 0 },
   ],
+  candidateInput: '',
 };
 
 export default initialState;

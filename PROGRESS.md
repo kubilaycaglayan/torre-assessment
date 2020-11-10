@@ -67,3 +67,7 @@ Pointing will be representational for the MVP. Basicall we can give 1 point for 
       Create action to change the rankings of all the candidates in the state
       &&
       Add dependency: redux-devtools-extension
+
+  - 15:31
+      Started to working on the components
+      Input component
