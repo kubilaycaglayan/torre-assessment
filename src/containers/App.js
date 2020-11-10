@@ -20,15 +20,29 @@ const App = props => {
   return (
     <>
       <header>
+        <nav />
         Hello Torre!
-      </header>
-      <section>
+        <h1>
+          All For Talent
+        </h1>
         <p>
-          This is a great product...
-          This is a great product...
-          This is a great product...
+          What this application does?
+          {' '}
         </p>
-      </section>
+        <p>Imagine that you are a hiring company. </p>
+        <p>You have a talent and you want to use Torre APIs to find the best job for your talent. </p>
+        <p className="green-background">
+          1. Find the username of your talent
+          {' '}
+          <a href="https://torre.co/en/search/people">in Torre</a>
+          .
+        </p>
+        <p className="green-background">2. Fill the input with the username and click the "Find The Job" button.</p>
+        <p className="green-background">3. Wait for the loading.</p>
+        <p>First you will see that your talent will appear right below the input.</p>
+        <p>Then according to your talents strengths, the best job fit will be fetched.</p>
+        <p>After that, you can compare your talent with the other talents in your talent pool. All the ranks will be updated relative to the new job on the screen. So you will not miss the perfect fit!</p>
+      </header>
       <section className="query">
         <h3>
           Find The Best Job For Your Talent

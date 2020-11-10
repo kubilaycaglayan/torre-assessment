@@ -6,10 +6,11 @@ import attemptChangeJob from './attemptChangeJob';
 import { LOADING_TALENT, NOT_LOADING } from '../../constants';
 
 const attemptChangeCandidate = input => dispatch => {
+  if (input === '') return;
   dispatch(changeLoadingState(LOADING_TALENT));
   getUser(input)
-  .then(
-    candidate => {
+    .then(
+      candidate => {
         console.log('in atttempt candidate:', candidate);
         if (candidate !== undefined && candidate.person !== undefined) {
           dispatch(changeCandidate(candidate));

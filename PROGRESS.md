@@ -91,3 +91,6 @@ Pointing will be representational for the MVP. Basicall we can give 1 point for 
 
   - 20:30
       Finish styling, mobile first MVP is ready
+
+  - 21:30
+      Add loading component

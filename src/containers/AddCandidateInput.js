@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { changeCandidateInput } from '../actions';
-import { attemptChangeCandidate } from '../actions';
+import { changeCandidateInput, attemptChangeCandidate } from '../actions';
 
 const AddCandidateInput = props => {
   const { handleInput, handleSubmit, candidateInput } = props;
