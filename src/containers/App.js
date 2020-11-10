@@ -21,9 +21,9 @@ const App = props => {
       <header>
         Hello Torre!
       </header>
-      <section className="">
+      <section className="query">
         <AddCandidateInput />
-        <Candidate candidate={currentCandidate} />
+        <Candidate candidate={currentCandidate} className="single-candidate" />
       </section>
       <section className="">
         <Job job={currentJob} />

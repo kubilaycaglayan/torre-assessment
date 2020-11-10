@@ -8,9 +8,11 @@ const attemptChangeCandidate = input => dispatch => {
     .then(
       candidate => {
         console.log('in atttempt candidate:', candidate);
-        dispatch(changeCandidate(candidate));
-        const firstStrength = getStrengths(candidate, 1)[0];
-        dispatch(attemptChangeJob(firstStrength));
+        if (candidate.person !== undefined) {
+          dispatch(changeCandidate(candidate));
+          const firstStrength = getStrengths(candidate, 1)[0];
+          dispatch(attemptChangeJob(firstStrength));
+        }
       },
     )
     .catch(

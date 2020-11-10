@@ -86,3 +86,6 @@ Pointing will be representational for the MVP. Basicall we can give 1 point for 
       Change job upon candidate change
       Change ranks of candidates upon job change
 
+  - 19:30
+      Add styling for pool
+

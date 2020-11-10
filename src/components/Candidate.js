@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Candidate = props => {
-  const { candidate } = props;
+  const { candidate, className } = props;
   return (
-    <article>
+    <article className={`candidate ${className ? className : ''}`}>
       <div className="rank-box">
         <h4>
           Rank
@@ -23,8 +23,9 @@ const Candidate = props => {
       </h4>
       <h5 className="name">
         { candidate.person.name }
-        <span> "" </span>
+        <span> (</span>
         { candidate.person.publicId }
+        <span>)</span>
       </h5>
     </article>
   );
