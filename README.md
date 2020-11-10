@@ -14,9 +14,9 @@ Additional description about the project and its features.
 - JavaScript
 - SASS
 
-## Live Demo
+## Live
 
-[Live Demo Link]()
+[Live Link](https://all-for-talent.herokuapp.com/)
 
 
 ## Getting Started

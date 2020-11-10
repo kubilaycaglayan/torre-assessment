@@ -94,3 +94,18 @@ Pointing will be representational for the MVP. Basicall we can give 1 point for 
 
   - 21:30
       Add loading component
+
+  - 22:00
+      Add header instructions
+
+  - 22:05
+      Heroku Deployment
+
+### 💡 Idea (update)
+Given one talent's username the application finds the best matching job(first result).
+And then according to the job skills, it ranks the talents in the talent pool and it ranks the main talent.
+With the help of this application, you can easily see how the other talent in your talent pool would fit for a specific job that you are looking for one of your talents. 😊
+### 💡 Idea (update)
+
+   - 22:18
+       Add Footer
