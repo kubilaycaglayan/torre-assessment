@@ -46,4 +46,17 @@ Pointing will be representational for the MVP. Basicall we can give 1 point for 
   - Match calculator
   - Strengths grabber
 
-  - 12:42 Create strengths calculator
+  - 12:42 Create strengths and interests slicers
+
+  - 12:51 Think about the user experience flow
+
+  User puts a candidate name on the input
+    Application finds the candidate
+    Finds the proper job
+    Makes the ranking
+      Job requirements
+      Candidate experience
+      Candidate strengths
+    Changes the inner state of the candidates
+
+  - 14:00 Create ranking functions.
