@@ -71,3 +71,4 @@ Pointing will be representational for the MVP. Basicall we can give 1 point for 
   - 15:31
       Started to working on the components
       Input component
+      Add new state => candidate input
