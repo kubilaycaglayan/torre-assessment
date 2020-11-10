@@ -24,10 +24,10 @@ const App = props => {
         <nav />
         Hello Torre!
         <h1>
-          All For Talent
+          All For Talent 🌠
         </h1>
         <p>
-          What this application does?
+          What does this application do?
           {' '}
         </p>
         <p>
@@ -77,7 +77,7 @@ const App = props => {
       </section>
       <footer>
         <div className="wrapper">
-          <a href="https://github.com/kubilaycaglayan/torre-assessment">
+          <a href="https://github.com/kubilaycaglayan/torre-assessment/tree/documentation">
             GitHub
           </a>
           |
