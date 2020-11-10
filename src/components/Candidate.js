@@ -23,7 +23,7 @@ const Candidate = props => {
       </h4>
       <h5>
         <span className="rank-box">
-          { candidate.rank ? candidate.rank : 'TBD' }
+          { candidate.rank }
         </span>
       </h5>
     </article>

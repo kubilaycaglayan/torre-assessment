@@ -9,7 +9,6 @@ const attemptChangeCandidate = input => dispatch => {
       candidate => {
         dispatch(changeCandidate(candidate));
         const firstStrength = getStrengths(candidate, 1)[0];
-        console.log('first strength of the cand:', firstStrength);
         dispatch(attemptChangeJob(firstStrength));
       },
     )

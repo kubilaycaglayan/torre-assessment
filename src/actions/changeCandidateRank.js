@@ -1,8 +1,8 @@
-import { CHANGE_CANDIDATE_INPUT } from '../constants';
+import { CHANGE_CANDIDATE_RANK } from '../constants';
 
-const changeCandidateInput = input => ({
-  type: CHANGE_CANDIDATE_INPUT,
-  input,
+const changeCandidateRank = job => ({
+  type: CHANGE_CANDIDATE_RANK,
+  job,
 });
 
-export default changeCandidateInput;
+export default changeCandidateRank;

@@ -14,7 +14,7 @@ const Job = props => {
         Organization
       </h4>
       <h5>
-        { job.organizations[0].name }
+        { job.organizations[0] ? job.organizations[0].name : 'Organization could not be found.' }
       </h5>
       <h4>
         Location

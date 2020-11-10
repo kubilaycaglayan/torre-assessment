@@ -4,7 +4,10 @@ import {
 import job from './jobs';
 
 const initialState = {
-  candidate: user1,
+  candidate: {
+    ...user1,
+    rank: 0,
+  },
   job,
   candidatePool: [
     { ...user2, rank: 0 },

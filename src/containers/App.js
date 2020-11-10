@@ -1,24 +1,21 @@
-import React from 'react';
-import {connect} from 'react-redux';
+import React, { useEffect } from 'react';
+import { connect } from 'react-redux';
 import getRank from '../helpers/ranking/getRank';
 import Candidate from '../components/Candidate';
 import Job from '../components/Job';
-import Pool from '../containers/Pool';
-import AddCandidateInput from '../containers/AddCandidateInput';
-
-/* import {
-  user1, user2, user3, user4,
-} from '../state/users';
-import job from '../state/jobs';
-import { connect } from 'react-redux';
-
-console.log(getRank(user1, job));
-console.log(getRank(user2, job));
-console.log(getRank(user3, job));
-console.log(getRank(user4, job)); */
+import Pool from './Pool';
+import AddCandidateInput from './AddCandidateInput';
+import { changeCandidateRank, changePoolRank } from '../actions';
 
 const App = props => {
-  const { currentCandidate, currentJob, currentCandidatePool } = props;
+  const {
+    currentCandidate, currentJob, currentCandidatePool, updateRanks,
+  } = props;
+
+  useEffect(() => {
+    updateRanks(currentJob);
+  }, [currentJob]);
+
   return (
     <>
       <header>
@@ -47,7 +44,14 @@ const mapStateToProps = state => ({
   currentCandidatePool: state.candidatePool,
 });
 
+const mapDispatchToProps = dispatch => ({
+  updateRanks: job => {
+    dispatch(changeCandidateRank(job));
+    dispatch(changePoolRank(job));
+  },
+});
+
 export default connect(
   mapStateToProps,
-  null,
+  mapDispatchToProps,
 )(App);
