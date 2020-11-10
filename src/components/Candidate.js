@@ -15,12 +15,16 @@ const Candidate = props => {
       </h4>
       <h5>
         { candidate.person.name }
+        <span> "" </span>
+        { candidate.person.publicId }
       </h5>
       <h4>
         Rank
       </h4>
       <h5>
-        { candidate.rank ? candidate.rank : 'TBD' }
+        <span className="rank-box">
+          { candidate.rank ? candidate.rank : 'TBD' }
+        </span>
       </h5>
     </article>
   );

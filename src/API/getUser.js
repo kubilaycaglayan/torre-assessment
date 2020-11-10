@@ -1,9 +1,11 @@
 import { GET_USER, PROXY } from '../constants';
 
-const getUser = (userName = 'kblycaglayan') => {
+const getUser = (userName = 'csandoval') => {
   const endpoint = `${PROXY}${GET_USER(userName)}`;
 
-  return fetch(endpoint)
+  return fetch(endpoint, {
+    mode: 'cors',
+  })
     .then(
       response => response.json(),
     )

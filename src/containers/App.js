@@ -24,14 +24,14 @@ const App = props => {
       <header>
         Hello Torre!
       </header>
-      <section>
+      <section className="border">
         <AddCandidateInput />
         <Candidate candidate={currentCandidate} />
       </section>
-      <section>
+      <section className="border">
         <Job job={currentJob} />
       </section>
-      <section>
+      <section className="border">
         <h3>
           Candidate Pool
         </h3>

@@ -72,3 +72,15 @@ Pointing will be representational for the MVP. Basicall we can give 1 point for 
       Started to working on the components
       Input component
       Add new state => candidate input
+
+  - 16:00
+      Bring everything together in App.js container
+
+  - 16:30
+      Handle new candidate submission
+
+  - 17:00
+      Lunch Break ☕
+
+  - Next:
+
