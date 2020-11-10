@@ -60,3 +60,8 @@ Pointing will be representational for the MVP. Basicall we can give 1 point for 
     Changes the inner state of the candidates
 
   - 14:00 Create ranking functions.
+
+  - 15:00
+      Create action to change the candidate
+      Create action to add candidate to the pool
+      Create action to change the rankings of all the candidates in the state

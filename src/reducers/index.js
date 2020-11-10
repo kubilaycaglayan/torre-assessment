@@ -1,8 +1,12 @@
 import { combineReducers } from 'redux';
-import user from './user';
+import candidate from './candidate';
+import candidatePool from './candidatePool';
+import job from './job';
 
 const reducer = combineReducers({
-  user,
+  candidate,
+  candidatePool,
+  job,
 });
 
 export default reducer;
