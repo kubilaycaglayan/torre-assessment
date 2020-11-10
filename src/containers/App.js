@@ -10,7 +10,7 @@ import { changeCandidateRank, changePoolRank } from '../actions';
 
 const App = props => {
   const {
-    currentCandidate, currentJob, currentCandidatePool, updateRanks,
+    currentCandidate, currentJob, loadingState, updateRanks,
   } = props;
 
   useEffect(() => {
@@ -29,19 +29,18 @@ const App = props => {
           This is a great product...
         </p>
       </section>
-      <Loading />
       <section className="query">
         <h3>
           Find The Best Job For Your Talent
         </h3>
         <AddCandidateInput />
-        <Candidate candidate={currentCandidate} className="single-candidate" />
+        <Candidate candidate={currentCandidate} className="single-candidate" loadingState={loadingState} />
       </section>
       <section className="job-fit">
         <h3>
           Best Job Fit
         </h3>
-        <Job job={currentJob} />
+        <Job job={currentJob} loadingState={loadingState} />
       </section>
       <section className="pool-wrapper">
         <h3 className="pool-title">
@@ -57,6 +56,7 @@ const mapStateToProps = state => ({
   currentCandidate: state.candidate,
   currentJob: state.job,
   currentCandidatePool: state.candidatePool,
+  loadingState: state.loadingState,
 });
 
 const mapDispatchToProps = dispatch => ({

@@ -1,9 +1,10 @@
 import { postJobs } from '../../API';
 import changeJob from '../changeJob';
-import changeCandidateRank from '../changeCandidateRank';
-import changePoolRank from '../changePoolRank';
+import changeLoadingState from '../changeLoadingState';
+import { NOT_LOADING, LOADING_JOB } from '../../constants';
 
 const attemptChangeJob = strength => dispatch => {
+  dispatch(changeLoadingState(LOADING_JOB));
   postJobs(strength)
     .then(
       job => {
@@ -11,6 +12,7 @@ const attemptChangeJob = strength => dispatch => {
         if (job.organizations !== undefined) {
           dispatch(changeJob(job));
         }
+        dispatch(changeLoadingState(NOT_LOADING));
       },
     )
     .catch(

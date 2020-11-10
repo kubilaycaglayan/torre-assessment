@@ -2,6 +2,7 @@ import {
   user1, user2, user3, user4, user5,
 } from './users';
 import job from './jobs';
+import { NOT_LOADING } from '../constants';
 
 const initialState = {
   candidate: {
@@ -16,6 +17,7 @@ const initialState = {
     { ...user5, rank: 0 },
   ],
   candidateInput: '',
+  loadingState: NOT_LOADING,
 };
 
 export default initialState;
