@@ -55,17 +55,17 @@ const App = props => {
       </header>
       <section className="query">
         <h3>
-          Find The Best Job For Your Talent
+          Find The Best Job For Your Candidate
         </h3>
         <AddCandidateInput />
         <h3>
-          Your Talent
+          Your Candidate
         </h3>
         <Candidate candidate={currentCandidate} className="single-candidate" loadingState={loadingState} />
       </section>
       <section className="job-fit">
         <h3>
-          Best Job Fit For Your Talent
+          Best Job Fit For Your Candidate
         </h3>
         <Job job={currentJob} loadingState={loadingState} />
       </section>
