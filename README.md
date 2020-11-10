@@ -1,12 +1,15 @@
 # All For Talent (Torre Technical Test)
 
-Please check the [PROGRESS LOG here.](https://github.com/kubilaycaglayan/torre-assessment/blob/documentation/PROGRESS.md)
-Please check the [COMMIT HISTORY here.](https://github.com/kubilaycaglayan/torre-assessment/pull/1)
-Please check the [VIDEO PRESENTATION here.](https://github.com/kubilaycaglayan/torre-assessment/pull/1)
-Please check the [LIVE LINK here.](https://all-for-talent.herokuapp.com/)
+- [PROGRESS LOG](https://github.com/kubilaycaglayan/torre-assessment/blob/documentation/PROGRESS.md)
 
+- [COMMIT HISTORY](https://github.com/kubilaycaglayan/torre-assessment/pull/1)
+
+- [VIDEO PRESENTATION](https://www.loom.com/share/4550da5f4948468ba85b8887571eec9a)
+
+- [LIVE LINK](https://all-for-talent.herokuapp.com/)
 
 https://www.loom.com/share/4550da5f4948468ba85b8887571eec9a
+
 > You can use this application to find jobs for your candidates.
 
 > As you are finding the best matching job for your candidate, you also see the ranks of other talents in your talent pool relative to the matching job.
