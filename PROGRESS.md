@@ -107,5 +107,8 @@ And then according to the job skills, it ranks the talents in the talent pool an
 With the help of this application, you can easily see how the other talent in your talent pool would fit for a specific job that you are looking for one of your talents. 😊
 ### 💡 Idea (update)
 
-   - 22:18
-       Add Footer
+  - 22:18
+     Add Footer
+
+  - 23:11
+     Add type checkings
