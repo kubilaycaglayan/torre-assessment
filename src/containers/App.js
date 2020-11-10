@@ -1,9 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/forbid-prop-types */
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
-import getRank from '../helpers/ranking/getRank';
+import PropTypes from 'prop-types';
 import Candidate from '../components/Candidate';
 import Job from '../components/Job';
-import Loading from '../components/Loading';
 import Pool from './Pool';
 import AddCandidateInput from './AddCandidateInput';
 import { changeCandidateRank, changePoolRank } from '../actions';
@@ -46,7 +47,11 @@ const App = props => {
         <p className="green-background">3. Wait for the loading.</p>
         <p>First you will see that your talent will appear right below the input.</p>
         <p>Then according to your candidate&apos;s strengths, the best job fit will be fetched.</p>
-        <p>After that, you can compare your candidate with the others in your talent pool. All the ranks will be updated relative to the new job on the screen. So you will not miss the perfect fit!</p>
+        <p>
+          After that, you can compare your candidate with the others in your talent pool.
+          All the ranks will be updated relative to the new job on the screen.
+          So you will not miss the perfect fit!
+        </p>
       </header>
       <section className="query">
         <h3>
@@ -87,6 +92,13 @@ const App = props => {
       </footer>
     </>
   );
+};
+
+App.propTypes = {
+  currentCandidate: PropTypes.object.isRequired,
+  currentJob: PropTypes.object.isRequired,
+  loadingState: PropTypes.string.isRequired,
+  updateRanks: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = state => ({

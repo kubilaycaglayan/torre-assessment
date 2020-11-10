@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 import { changeCandidateInput, attemptChangeCandidate } from '../actions';
 
 const AddCandidateInput = props => {
@@ -13,6 +14,12 @@ const AddCandidateInput = props => {
       </button>
     </form>
   );
+};
+
+AddCandidateInput.propTypes = {
+  handleInput: PropTypes.func.isRequired,
+  handleSubmit: PropTypes.func.isRequired,
+  candidateInput: PropTypes.string.isRequired,
 };
 
 const mapStateToProps = state => ({

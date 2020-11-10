@@ -11,7 +11,6 @@ const attemptChangeCandidate = input => dispatch => {
   getUser(input)
     .then(
       candidate => {
-        console.log('in atttempt candidate:', candidate);
         if (candidate !== undefined && candidate.person !== undefined) {
           dispatch(changeCandidate(candidate));
           const firstStrength = getStrengths(candidate, 1)[0];

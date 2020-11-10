@@ -8,7 +8,6 @@ const attemptChangeJob = strength => dispatch => {
   postJobs(strength)
     .then(
       job => {
-        console.log('in atttempt job', job);
         if (job.organizations !== undefined) {
           dispatch(changeJob(job));
         }

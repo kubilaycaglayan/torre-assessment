@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { LOADING_JOB } from '../constants';
 import Loading from './Loading';
 
@@ -38,5 +39,15 @@ const Job = props => {
       )
   );
 };
+
+Job.propTypes = ({
+  job: PropTypes.shape({
+    organizations: PropTypes.arrayOf(PropTypes.object).isRequired,
+    objective: PropTypes.string.isRequired,
+    locations: PropTypes.arrayOf(PropTypes.string).isRequired,
+    id: PropTypes.string.isRequired,
+  }).isRequired,
+  loadingState: PropTypes.string.isRequired,
+});
 
 export default Job;

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Loading from './Loading';
 import { LOADING_TALENT } from '../constants';
 
@@ -44,6 +45,19 @@ const Candidate = props => {
       )
 
   );
+};
+
+Candidate.propTypes = {
+  candidate: PropTypes.shape({
+    rank: PropTypes.number.isRequired,
+    person: PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      publicId: PropTypes.string.isRequired,
+      professionalHeadline: PropTypes.string.isRequired,
+    }).isRequired,
+  }).isRequired,
+  className: PropTypes.string.isRequired,
+  loadingState: PropTypes.string.isRequired,
 };
 
 export default Candidate;
