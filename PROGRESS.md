@@ -82,5 +82,5 @@ Pointing will be representational for the MVP. Basicall we can give 1 point for 
   - 17:00
       Lunch Break ☕
 
-  - Next:
+  - Next: Change job upon candidate change
 

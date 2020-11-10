@@ -22,6 +22,9 @@ const postJobs = (keyWords = 'ruby on rails') => {
     .then(
       res => res.json(),
     )
+    .then(
+      res => res.results[0],
+    )
     .catch(
       () => {
         // Error handling
