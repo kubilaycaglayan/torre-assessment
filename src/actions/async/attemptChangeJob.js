@@ -7,6 +7,7 @@ const attemptChangeJob = strength => dispatch => {
   postJobs(strength)
     .then(
       job => {
+        console.log('in atttempt job', job);
         dispatch(changeJob(job));
         // dispatch(changeCandidateRank(job));
         // dispatch(changePoolRank(job));

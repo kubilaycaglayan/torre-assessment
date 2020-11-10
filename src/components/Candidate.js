@@ -4,6 +4,14 @@ const Candidate = props => {
   const { candidate } = props;
   return (
     <article>
+      <div className="rank-box">
+        <h4>
+          Rank
+        </h4>
+        <h5 className="rank">
+            { candidate.rank }
+        </h5>
+      </div>
       <h4>
         Professional Headline
       </h4>
@@ -13,18 +21,10 @@ const Candidate = props => {
       <h4>
         Name
       </h4>
-      <h5>
+      <h5 className="name">
         { candidate.person.name }
         <span> "" </span>
         { candidate.person.publicId }
-      </h5>
-      <h4>
-        Rank
-      </h4>
-      <h5>
-        <span className="rank-box">
-          { candidate.rank }
-        </span>
       </h5>
     </article>
   );

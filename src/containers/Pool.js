@@ -6,7 +6,7 @@ const Pool = props => {
   const { candidatePool } = props;
 
   return (
-    <section>
+    <section className="pool">
       { candidatePool
         .map(candidate => <Candidate candidate={candidate} key={candidate.person.subjectId} />) }
     </section>

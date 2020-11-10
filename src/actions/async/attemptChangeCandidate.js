@@ -7,6 +7,7 @@ const attemptChangeCandidate = input => dispatch => {
   getUser(input)
     .then(
       candidate => {
+        console.log('in atttempt candidate:', candidate);
         dispatch(changeCandidate(candidate));
         const firstStrength = getStrengths(candidate, 1)[0];
         dispatch(attemptChangeJob(firstStrength));
