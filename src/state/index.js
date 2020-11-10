@@ -1,7 +1,7 @@
-import user from './user';
+import { user1 } from './users';
 
 const initialState = {
-  user,
+  user: user1,
 };
 
 export default initialState;
