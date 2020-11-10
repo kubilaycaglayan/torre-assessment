@@ -22,6 +22,9 @@ const Job = props => {
       <h5>
         { job.locations[0] }
       </h5>
+      <a href={`http://torre.co/jobs/${job.id}`}>
+        See job at Torre
+      </a>
     </section>
   );
 };

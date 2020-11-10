@@ -27,6 +27,9 @@ const Candidate = props => {
         { candidate.person.publicId }
         <span>)</span>
       </h5>
+      <a href={`http://bio.torre.co/${candidate.person.publicId}`}>
+        See talent at Torre
+      </a>
     </article>
   );
 };
