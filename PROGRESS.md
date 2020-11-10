@@ -33,4 +33,17 @@ Pointing will be representational for the MVP. Basicall we can give 1 point for 
 
   - 11:10 Add getUser API call
 
-  Next:
+  - 12:00 Add postJobs API call and initial states
+
+  - 12:20 Think about the basic components and divide the application into small problems
+  - Username input
+  - Candidate card
+  - Job details card
+  - Candidate container with username input
+      displays the single user state and can be change with input
+  - Pool container with username input
+      displays the pool state and we can add more users to the pool
+  - Match calculator
+  - Strengths grabber
+
+  - 12:42 Create strengths calculator
