@@ -10,7 +10,7 @@ const AddCandidateInput = props => {
     <form>
       <input onChange={e => { handleInput(e.target.value); }} />
       <button type="button" onClick={() => { handleSubmit(candidateInput); }}>
-        Add
+        Find Talent And The Best Job Fit
       </button>
     </form>
   );
