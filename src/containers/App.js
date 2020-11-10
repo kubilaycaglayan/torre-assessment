@@ -22,13 +22,19 @@ const App = props => {
         Hello Torre!
       </header>
       <section className="query">
+        <h3>
+          Find The Best Job For Your Talent
+        </h3>
         <AddCandidateInput />
         <Candidate candidate={currentCandidate} className="single-candidate" />
       </section>
-      <section className="">
+      <section className="job-fit">
+        <h3>
+          Best Job Fit
+        </h3>
         <Job job={currentJob} />
       </section>
-      <section className="">
+      <section className="pool-wrapper">
         <h3 className="pool-title">
           Talent Pool
         </h3>

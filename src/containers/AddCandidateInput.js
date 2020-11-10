@@ -8,9 +8,9 @@ const AddCandidateInput = props => {
 
   return (
     <form>
-      <input onChange={e => { handleInput(e.target.value); }} />
+      <input onChange={e => { handleInput(e.target.value); }} placeholder="search with username" />
       <button type="button" onClick={() => { handleSubmit(candidateInput); }}>
-        Find Talent And The Best Job Fit
+        Find The Job
       </button>
     </form>
   );

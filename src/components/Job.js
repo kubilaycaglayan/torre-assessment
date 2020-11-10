@@ -3,7 +3,7 @@ import React from 'react';
 const Job = props => {
   const { job } = props;
   return (
-    <section>
+    <section className="job">
       <h4>
         Job Description
       </h4>

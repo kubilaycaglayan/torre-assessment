@@ -89,3 +89,5 @@ Pointing will be representational for the MVP. Basicall we can give 1 point for 
   - 19:30
       Add styling for pool
 
+  - 20:30
+      Finish styling, mobile first MVP is ready
