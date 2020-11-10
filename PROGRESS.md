@@ -26,3 +26,11 @@ Pointing will be representational for the MVP. Basicall we can give 1 point for 
   - Get requests for every user
   - Ranking users
   - Get the most relevant job for the selected user
+
+  - 10:00 Create folder structure
+
+  - 10:30 Actions and Reducers
+
+  - 11:10 Add getUser API call
+
+  Next:
