@@ -26,7 +26,7 @@ const App = props => {
         <h1>
           All For Talent
           {' '}
-          <span role="img"> 🌠 </span>
+          <span role="img" aria-label="img"> 🌠 </span>
         </h1>
         <p>
           What does this application do?
