@@ -24,7 +24,9 @@ const App = props => {
         <nav />
         Hello Torre!
         <h1>
-          All For Talent 🌠
+          All For Talent
+          {' '}
+          <span> 🌠 </span>
         </h1>
         <p>
           What does this application do?
