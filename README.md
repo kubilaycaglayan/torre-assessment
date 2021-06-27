@@ -1,10 +1,25 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# All For Talent (Torre Technical Test)
 
-# Project Name
+- [PROGRESS LOG](https://github.com/kubilaycaglayan/torre-assessment/blob/documentation/PROGRESS.md)
 
-> One paragraph statement about the project.
+- [COMMIT HISTORY](https://github.com/kubilaycaglayan/torre-assessment/pull/1)
 
-![screenshot](./)
+- [VIDEO PRESENTATION](https://www.loom.com/share/4550da5f4948468ba85b8887571eec9a)
+
+- [LIVE LINK](https://all-for-talent.herokuapp.com/)
+
+https://www.loom.com/share/4550da5f4948468ba85b8887571eec9a
+
+> You can use this application to find jobs for your candidates.
+
+> As you are finding the best matching job for your candidate, you also see the ranks of other talents in your talent pool relative to the matching job.
+
+> This gives you a clean sight of your candidates and which one is the best for the matching job.
+
+> Ranks are calculated by the application considering the job and the candidates.
+
+![screenshot](./images/screenshot_1.png)
+![screenshot](./images/screenshot_2.png)
 
 Additional description about the project and its features.
 
@@ -14,30 +29,30 @@ Additional description about the project and its features.
 - JavaScript
 - SASS
 
-## Live Demo
+## Live
 
-[Live Demo Link]()
-
+[Live Link](https://all-for-talent.herokuapp.com/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+### How to Run This Aplication Locally?
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
+Run these commands on the terminal
 
 ### Install
 
+- `git clone https://github.com/kubilaycaglayan/torre-assessment.git`
+- `cd torre-assessment`
+- `git checkout documentation`
+- `npm install`
+
 ### Usage
+
+- `npm start`
 
 ### Run tests
 
-### Deployment
+- Due to the time limitations there is no automated tests for this application. It will be considered as the future feature.
 
 ## Authors
 
@@ -47,6 +62,12 @@ To get a local copy up and running follow these simple example steps.
 - Github: [@kubilaycaglayan](https://github.com/kubilaycaglayan)
 - Twitter: [@kbcaglayan](https://twitter.com/kbcaglayan)
 - Linkedin: [linkedin](https://linkedin.com/in/kubilaycaglayan)
+
+## Future Features
+
+- Adding new candidates to the talent pool.
+- Automated tests.
+- Transition effects for ranks.
 
 ## 🤝 Contributing
 
@@ -60,9 +81,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Project built with Torre APIs.
+- https://torre.co/
 
 ## 📝 License
 
