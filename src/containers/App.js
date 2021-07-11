@@ -8,6 +8,7 @@ import Job from '../components/Job';
 import Pool from './Pool';
 import AddCandidateInput from './AddCandidateInput';
 import { changeCandidateRank, changePoolRank } from '../actions';
+import { wakeUp } from '../API';
 
 const App = props => {
   const {
@@ -17,6 +18,10 @@ const App = props => {
   useEffect(() => {
     updateRanks(currentJob);
   }, [currentJob]);
+
+  useEffect(() => {
+    wakeUp();
+  }, []);
 
   return (
     <>
